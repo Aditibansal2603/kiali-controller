@@ -1,0 +1,12 @@
+apiVersion: kiali.io.my.domain/v1alpha1
+kind: Kiali
+metadata:
+  labels:
+    app.kubernetes.io/name: kiali
+    app.kubernetes.io/instance: kiali-sample
+    app.kubernetes.io/part-of: controller
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: controller
+  name: kiali-sample
+spec:
+  # TODO(user): Add fields here
